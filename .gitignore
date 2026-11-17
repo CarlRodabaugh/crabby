@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+pet.log
+alive
+quit
+state-*.json
+pythonw.txt
+settings.json
+*.bak-*
+
+media/review/
+media/*.py
+media/*.wav
+media/crabby-tour-silent.mp4

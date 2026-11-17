@@ -1,0 +1,14 @@
+{
+  "name": "crabby",
+  "version": "0.3.0",
+  "description": "Crabby, a desktop crab: one little crab per Claude chat walks around your screen while Claude works, and sleeps when idle. /pet starts or stops it.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "autoStart": {
+      "type": "boolean",
+      "title": "Start the crab pet with Claude",
+      "description": "When on, the desktop crab starts by itself when a session starts. /pet still works.",
+      "default": false
+    }
+  }
+}
