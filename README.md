@@ -9,9 +9,12 @@ One crab per open chat, a smaller helper crab for every running subagent, and a 
   <img src="media/crabby-hero.gif" alt="A pixel crab walks along the bottom of the screen, hops, changes into a chef costume and falls asleep in the corner." width="640">
 </p>
 
-**Website: [crabby.website](https://crabby.website)** (try the crab in your browser) · **[Watch the 1-minute tour](media/crabby-tour.mp4)**
+**Website: [crabby.website](https://crabby.website)** (try the crab in your browser)
 
-<!-- Tip: for a video that plays right inside the README, edit this file on github.com, drag media/crabby-tour.mp4 into the editor and paste the link it creates here. -->
+<p align="center">
+  <a href="https://crabby.website/#tour"><img src="media/poster.png" alt="Watch the 1-minute tour" width="640"></a>
+</p>
+
 
 
 ## Install
