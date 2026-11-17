@@ -104,7 +104,7 @@ def install(args):
     print('  mod:  ' + mod_dir)
     print('  settings updated: ' + settings_path + (' (backup: %s)' % os.path.basename(bak) if bak else ''))
     print('Now start a NEW Claude chat. The crab appears by itself' + ('' if not args.no_autostart else ' after you type /pet') + '.')
-    print('Stop it any time with /pet or Ctrl+Alt+Q.')
+    print('Stop it any time with /pet.')
 
 
 def uninstall(args):

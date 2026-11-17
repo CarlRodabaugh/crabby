@@ -10,7 +10,7 @@
 # - It gets tired when your plan usage is high,
 #   shakes when a turn fails, holds a prop for the tool Claude uses, and jumps when Claude needs you.
 # - Remembers outfit, size and resting spot in settings.json (this folder).
-# - Stop it: run /pet again in Claude, press Ctrl+Alt+Q, or create a file named "quit" here.
+# - Stop it: run /pet again in Claude, or create a file named "quit" here.
 import ctypes
 import datetime
 import glob
@@ -1139,11 +1139,6 @@ def alive_age():
         return 9999
 
 
-def hotkey_quit():
-    gk = ctypes.windll.user32.GetAsyncKeyState
-    return bool(gk(0x11) & 0x8000 and gk(0x12) & 0x8000 and gk(0x51) & 0x8000)  # Ctrl+Alt+Q
-
-
 def hue_pick(sid, used):
     """A stable outfit for a session, picked from its id, avoiding outfits already worn."""
     base = zlib.crc32(sid.encode()) % len(OUTFITS)
@@ -1352,7 +1347,7 @@ def main():
             if now - st['beat_t'] > 2:
                 st['beat_t'] = now
                 beat()
-                if os.path.exists(QUIT) or hotkey_quit():
+                if os.path.exists(QUIT):
                     stop()
                     return
             if st['hide_until']:

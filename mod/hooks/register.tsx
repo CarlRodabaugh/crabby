@@ -133,7 +133,7 @@ export const register: Register = (on, options) => {
     } catch {
       return { text: 'Could not start the crab pet. You can double-click start.vbs in the crabby folder inside your .claude folder.' }
     }
-    return { text: 'Crab pet started. Right-click it for a menu. Run /pet again, or press Ctrl+Alt+Q, to stop it.' }
+    return { text: 'Crab pet started. Right-click it for a menu. Run /pet again to stop it.' }
   })
 
   // The main loop starts a turn: the main crab sets off.

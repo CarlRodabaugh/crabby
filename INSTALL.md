@@ -10,6 +10,6 @@ If a user asked you to install Crabby from this repository, follow these steps i
    - adds the mod's folder to `CLAUDE_CODE_PLUGIN_DIRS` in that folder's `settings.json`, turns on "start with Claude", and saves a backup of `settings.json` first;
    - downloads nothing and makes no network calls.
 5. **Run it:** `python install.py` (or `python install.py --no-autostart` if the user wants to start the crab only with `/pet`).
-6. **Report.** Tell the user the installer's output, and that the crab appears after they start a **new** Claude chat. `/pet` starts or stops it, `Ctrl+Alt+Q` quits it.
+6. **Report.** Tell the user the installer's output, and that the crab appears after they start a **new** Claude chat. `/pet` starts or stops it.
 
 To remove it later: `python install.py --uninstall`.

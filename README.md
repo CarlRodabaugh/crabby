@@ -53,7 +53,6 @@ Then start a **new** Claude chat. The crab shows up by itself and goes away when
 | | |
 |---|---|
 | `/pet` | start or stop the pet |
-| `Ctrl+Alt+Q` | stop it from anywhere |
 | right-click a crab | outfit, size, sleep, hide for an hour |
 
 ## How it works
