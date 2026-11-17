@@ -73,7 +73,7 @@ python install.py --uninstall
 ## Known limits
 
 - Windows only for now.
-- The mod loads in Claude Desktop and the Claude Code CLI, not in the VS Code extension.
+- Works with Claude Desktop (Code tab) and Claude Code.
 - The crabs only appear for chats started after installing.
 
 ## License
